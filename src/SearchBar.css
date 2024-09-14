@@ -1,0 +1,72 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nosifer&family=VT323&display=swap");
+
+.search-container {
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    margin-top: -40px;
+    height:100vh;
+  }
+  .container{
+    color: #fdfafa;
+    font-size: 50px;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .search-bar p{
+    color:#090909;
+    margin: 0;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.search-bar{
+    background-color: #f0f0f0;
+    width:660px;
+}
+  .search-container .search-bar{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #807f7f;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  .search-container input {
+    background-color: transparent;
+    width: 600px;
+    padding: 10px;
+    border: none;
+    outline: none; 
+  }
+  
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 650px;
+    background: white;
+    z-index: 1000;
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
