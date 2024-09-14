@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nosifer&family=VT323&display=swap");
 
-.search-container {
+.search-container {   
     background-color: #0a0a0a;
     display: flex;
     flex-direction: column;

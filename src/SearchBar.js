@@ -33,7 +33,7 @@ const SearchBar = () => {
     <div className='search-bar'>
     <p><CiSearch /></p>
       <input
-        type="text"
+        type="text" 
         placeholder="Search for countries or capitals..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}

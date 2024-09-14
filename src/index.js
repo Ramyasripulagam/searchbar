@@ -5,6 +5,6 @@ import App from './App'; // Ensure this is the correct path to your App componen
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>, 
   document.getElementById('root') // Ensure this matches the id in your index.html
 );
